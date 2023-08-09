@@ -1,0 +1,75 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Assistant:wght@200&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+:root{
+    --bg-color:#43057d;
+    --second-bg-color:#2f0b8b;
+    --text-color:#fff;
+    --main-color:rgb(141, 13, 205);
+
+}
+
+.navbar a{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: 3s;
+    display: flex;
+}
+
+
+.topleft{
+    height: 50vh;
+    width: 50%;
+}
+.topright{
+    height: 50vh;
+    width: 50%;
+}
+
+.section2{
+    padding-left: 12px;
+    
+}
+
+.logo{
+    font-size: 1.5rem;
+    padding: 10px
+
+}
+.textdecoration{
+
+   background: var(--main-color);
+   margin: 0;
+   justify-content: center;  
+   height: 75vh;
+   display: flexbox;
+    
+}
+

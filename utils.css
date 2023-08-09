@@ -1,0 +1,148 @@
+
+.flex{
+    display: flex;
+   
+}
+.flex-size{
+    width: fit-content;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.flex-col{
+    flex-direction: column;
+}
+.font-bold{
+    font-weight: bold;
+}
+.my-1{
+    margin-top: auto;
+    margin-bottom: 150px;
+    margin-left: 200px;
+    padding-left: 200px;
+    padding-bottom: 100px
+}
+.my-2{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 13px ;
+}
+
+.text-center{
+    text-align: center;
+}
+.btn{
+    padding-left: 7px 5px;
+    width: 75px;
+    height: 30px;
+    border:2px solid rgb(247, 240, 247);
+    cursor: pointer;
+    border-radius: 12px;
+    color:white;
+    background-color: rgba(233, 170, 107, 0.982);
+
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.image-size{
+    padding-left: 105px;
+    width: 350px;
+    height: auto;
+    
+}
+.image-container{
+    position:relative;
+    background-repeat: none;
+}
+.section1{
+    min-height: 10vh;
+    padding-top: 20vh;
+    background-image: url('https://img.freepik.com/premium-vector/hand-drawn-people-working-together-illustration_52683-76157.jpg?w=900')
+}
+.section2{
+    padding: 20px;
+}
+.section2 h1{
+    font-size: 2.3em;
+}
+.section2 p{
+    padding: 0 0vw;
+    text-align: center;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 23vw;
+    
+    text-align: center;
+    border-radius: 10cqb;
+    
+}
+.box ul{
+    list-style-type: none;
+
+}
+.box ul li{
+    margin: 12px ;
+    
+}
+.box h2{
+    font-size: 2.6rem;
+    font-weight: 800;
+    padding: 15px 0;
+}
+.highlight{
+    font-size: 2em;
+    font-weight: bolder;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 50vh;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #e6e6e6;
+  }
+  .section3 table{
+        align-content: center;
+  }
+  .section3 h1{
+    font-size: 2.3em;
+}
+.section3 table tr{
+    padding: 0 0vw;
+    text-align: center;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+
